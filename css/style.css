@@ -3,6 +3,7 @@ body {
     justify-content: center;
 }
 
+
 /* DESKTOP VERSION */
 @media screen and (min-width: 1200px) {
 
@@ -18,6 +19,12 @@ body {
     }
     #nameClicked {
         color:black
+    }
+    p.option {
+        cursor: pointer;
+    }
+    p.option:hover {
+        text-decoration: underline;
     }
 }
 
@@ -35,6 +42,9 @@ body {
     }
     #nameClicked {
         color:black
+    }
+    p.option {
+       line-height: 10px;
     }
 }
 
