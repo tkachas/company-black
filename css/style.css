@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+/* DESKTOP VERSION */
+@media screen and (min-width: 1200px) {
+
+    .compName {
+        color: white;
+        position: absolute;
+        display: flex;
+        height: 75px;
+        top: 0;
+        align-items: center;
+        font-size: xx-large;
+        transition: 0.3s ease;
+    }
+    #nameClicked {
+        color:black
+    }
+}
+
+@media screen and (max-width: 1199px) {
+
+    .compName {
+        color: white;
+        position: absolute;
+        display: flex;
+        height: 40px;
+        top: 0;
+        align-items: center;
+        font-size: x-large;
+        transition: 0.3s ease;
+    }
+    #nameClicked {
+        color:black
+    }
+}
+
