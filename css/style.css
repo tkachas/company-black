@@ -6,6 +6,10 @@ body {
     display: flex;
     justify-content: center;
 }
+p.option:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 
 
@@ -25,28 +29,27 @@ body {
     #nameClicked {
         color:black
     }
-    p.option {
-        cursor: pointer;
-    }
-    p.option:hover {
-        text-decoration: underline;
-    }
 }
 
+
+/* MOBILE VERSION */
 @media screen and (max-width: 1199px) {
 
     .compName {
         color: white;
         position: absolute;
         display: flex;
-        height: 60px;
+        min-height: 60px;
         top: 0;
+        left: 10px;
         align-items: center;
         font-size: x-large;
         transition: 0.3s ease;
     }
     #nameClicked {
-        color:black
+        color:black;
+        padding-right: 10px;
+        align-self: left;
     }
     p.option {
        line-height: 10px;
