@@ -74,7 +74,6 @@ p#option:hover {
        line-height: 10px;
     }
     .content {
-        width: 100%;
         height: auto;
         position: absolute;
         word-wrap: break-word;
@@ -82,6 +81,7 @@ p#option:hover {
         margin-bottom: 75px;
         border-top: 2px solid black;
         border-bottom: 2px solid black;
+        transition: 0.3s ease;
     }
     p#company {
         margin-left: 15px;

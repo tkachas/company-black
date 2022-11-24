@@ -1,3 +1,4 @@
+"use strict";
 let company = document.querySelector('.company');
 let about = document.querySelector('.about');
 let product = document.querySelector('.product');

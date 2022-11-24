@@ -1,3 +1,4 @@
+"use strict";
 let aBlock = document.querySelector('.top-line');
 let bBlock = document.querySelector('.final-menu');
 let cBlock = document.querySelector('.menu-button');
